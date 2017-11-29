@@ -15,7 +15,9 @@ pipeline {
   }
   post {
       always {
-          echo "toto"
+          scripts {
+              echo "tata"
+          }
       }
   }
 }
